@@ -59,12 +59,6 @@ span{
     background-repeat: no-repeat;
 }
 
-
-
-
-
-
-
 .header-main{
  /*border: 2px solid red;*/
 display: flex;
@@ -108,6 +102,8 @@ align-items: center;
 .header-btn2{
  background-color: rgba(0, 157, 255, 0.842);
 }
+/*header part ends here*/
+
 
 /*main part start*/
 .main-container{
@@ -117,6 +113,9 @@ align-items: center;
 
 .main-content{
     display: flex;
+    max-width: 1000px;
+    margin-left: 350px;
+
     flex-direction: space-between;
 
 }
@@ -127,15 +126,20 @@ align-items: center;
     margin-left: 190px;
 
 }
-.margin-left{
+.main-left{
     margin-top: 50px;
     margin-right: 50px;
+    width: 50%;
 
 }
 .main-right{
     margin-top: 40px;
-    width: 100%;
+    width: 50%;}
+
+.main-left img{
+width: 100%;
 }
+
 
 .game{
     margin-left: 60px;
@@ -164,6 +168,8 @@ align-items: center;
     font-size: 25px;
     margin-left: 40px;
 }
+
+
 /*Section start here*/
 .span{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -178,7 +184,7 @@ align-items: center;
 .section-para{
     font-size: 18px;
 }
-/*card section*/
+/*card section start*/
 .online-main{
  max-width: 1000px;
  margin: 0 auto;
@@ -233,3 +239,40 @@ width: 100%;
 .online-card img:hover{
     filter: brightness(50%);
 }
+/*card section end*/
+
+/*play section start*/
+
+.play-main{
+ display: flex;
+ max-width: 1000px;
+ margin: 0 auto;
+ justify-content: space-between;
+ align-items: center;
+}
+.play-left{
+width: 40%;
+}
+
+.play-right img{
+    width:100%;
+}
+ .play-right .billi{
+position: absolute;
+height: 180px;
+width: 180px;
+bottom: -60px;
+left: -60px;
+
+}
+.play-right{
+    margin-top: 100px;
+    width: 40%;
+    position: relative;
+    }
+    .play-instantly{
+        background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        color: transparent;
+    }
+/*play section end*/
