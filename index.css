@@ -108,3 +108,128 @@ align-items: center;
 .header-btn2{
  background-color: rgba(0, 157, 255, 0.842);
 }
+
+/*main part start*/
+.main-container{
+    background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+
+}
+
+.main-content{
+    display: flex;
+    flex-direction: space-between;
+
+}
+.header{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color:transparent;
+    margin-left: 190px;
+
+}
+.margin-left{
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+.main-right{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.game{
+    margin-left: 60px;
+    margin-top: 10px;
+
+}
+.mobile{
+    margin-left: 20px;
+}
+.month{
+    margin-left: 120px;
+}
+.button-1{
+    background-image: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-left: 280px;
+}
+.purpose{
+    margin-left: 280px ;
+    margin-top: 10px;
+}
+.unleash{
+    color: #534C64;
+    font-size: 25px;
+    margin-left: 40px;
+}
+/*Section start here*/
+.span{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color:transparent;
+}
+.section-1{
+    text-align: center;
+    margin-top: 150px;
+   font-size: 30px;
+}
+.section-para{
+    font-size: 18px;
+}
+/*card section*/
+.online-main{
+ max-width: 1000px;
+ margin: 0 auto;
+ display: grid;
+ /*
+ border: 2px solid blueviolet;*/
+ grid-template-areas: "a b c d";
+ gap:10px;
+ margin-top: 15px;
+}
+.online-card{
+    position: relative;
+}
+.online-card img{
+    width: 100%;
+}
+.card-1{
+  grid-area: a;
+  width: 100%;
+}
+.card-2{
+grid-area: b;
+width: 100%;
+}
+.card-3{
+grid-area: c;
+width: 100%;
+}
+.card-4{
+grid-area: d;
+width: 100%;
+}
+.watch-now{
+   /* border: 2px solid blueviolet;*/
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    text-align: center;
+    display: none;
+}
+.watch-now span{
+    font-size: 20px;
+    color: aliceblue;
+}
+.watch-now p{
+    color: red;
+}
+.online-card img:hover+ .watch-now{
+    display: block;
+
+}
+.online-card img:hover{
+    filter: brightness(50%);
+}
