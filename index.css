@@ -362,19 +362,127 @@ width: 50%;
 .list-1{
     margin-left: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*career section ends*/
+/*catagorey section start*/
+
+.catagorey-main{
+    display: flex;
+ margin: 100px auto;
+ max-width: 1000px;
+ flex-wrap: wrap;
+ gap: 10px;
+ font-size: 15px;
+ justify-content: center;
+}
+
+.catagorey-child{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+   /* flex-grow: 1;
+    max-width: 103.112px;*/
+    font-size: 10px;
+    min-width: 180px;
+    border: 1px solid white;
+}
+.catagorey-child img{
+    width: 35px;
+    
+}
+.catagorey-child:hover{
+    outline: 1px solid #F948B2;
+}
+.Action{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ /*catagorey section ends*/
+
+ /*Footer section start*/
+.footer-main{
+    margin-top: 20px;
+    background-color: #0B0223;
+    color: white;
+    
+}
+ .footer-content{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-left: 700px;
+    font-size: 25px;
+ }
+ .footer-span{
+    color: #F948B2;
+ }
+ .ulli{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .g{
+    display: flex;
+    margin-left: 20px;
+ }
+ .w{
+    display: flex;
+    margin-left: 20px;
+ }
+ .c{
+    display: flex;
+    margin-left: 20px;
+ }
+ .m{
+    display: flex;
+    margin-left: 20px;
+ }
+ .s{
+    display: flex;
+    margin-left: 20px;
+ }
+
+ .image-footer {
+    margin-left: 700px;
+    margin-top: 20px;
+
+ }
+ .foot-2{
+    margin-left: 20px;
+    
+
+ }
+ .foot-3{
+    margin-left: 20px;
+ }
+ .foot-4{
+    margin-left: 20px;
+ }
+ .foot-5{
+    margin-left: 20px;
+ }
+ .foot-6{
+    margin-left: 20px;
+ }
+ .fot{
+    text-decoration: none;
+ }
+.ulli-1{
+    display: flex;
+    margin-left: 580px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.footer-paragraph{
+    margin-left: 590px;
+    font-size: 20px;
+    margin-top: 20px;}
+    .href{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*Footer section end*/
